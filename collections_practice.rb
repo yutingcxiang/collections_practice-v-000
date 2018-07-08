@@ -27,8 +27,8 @@ end
 
 def kesha_maker(array)
   kesha = []
-  array.each do |third|
-    third[2] = "$"
+  array.each do |word|
+    word[2] = "$"
   end
 end
 
