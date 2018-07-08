@@ -54,6 +54,8 @@ def add_s(array)
   array.each_with_index.map do |word, index|
     if index != 1
       word = word + "s"
+    else
+      word
     end
   end
 end
